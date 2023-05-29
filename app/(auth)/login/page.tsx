@@ -36,6 +36,7 @@ const SignIn = () => {
             }}
               className='p-2 h-fit w-full rounded-sm border-[2px] border-[#28A0F1] placeholder:opacity-50 focus:placeholder:opacity-100 outline-none'
               placeholder='Enter your Email Id'
+              type="email"
             ></input>
           </div>
           <div className='m-4 p-4 box-border'>
@@ -46,6 +47,7 @@ const SignIn = () => {
             }}
               className='p-2 h-fit w-full rounded-sm border-[2px] border-[#28A0F1] placeholder:opacity-50 focus:placeholder:opacity-100 outline-none'
               placeholder='Enter your Name'
+              type="string"
             ></input>
           </div>
           <div className='m-4 mt-0 p-4 pt-0 box-border'>
